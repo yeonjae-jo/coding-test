@@ -1,0 +1,1 @@
+solution = lambda num_list, n: num_list[::n]

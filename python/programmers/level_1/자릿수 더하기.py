@@ -1,7 +1,6 @@
 def solution(n):
     nList = list(str(n))
     answer = []
-    for i in nList:
-        answer.append(int(i))
+    [answer.append(int(i)) for i in nList]
 
     return sum(answer)

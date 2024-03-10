@@ -1,1 +1,5 @@
-# python-coding-test
+# coding-test
+
+- Python
+- JavaScript
+

@@ -1,0 +1,1 @@
+const solution = s => s.split('').map(x=>x.toUpperCase()).filter(v=>v==='P').length === s.split('').map(x=>x.toUpperCase()).filter(v=>v==='Y').length ? true : false;

@@ -1,0 +1,12 @@
+const solution = numbers => {
+    let answer = [], sum = 0;
+    for(i=0; i<numbers.length; i++){
+        for(j=i+1; j<numbers.length; j++){  
+          if(i !== j) 
+            sum = numbers[i] + numbers[j]
+            answer.includes(sum) === false ? answer.push(sum) : ''
+            answer.sort((a,b) => a - b)       
+        }
+    }
+    return answer
+}

@@ -5,7 +5,7 @@ function solution(l, r) {
                 if(i%j === 0) 
                     arr.push(j);
             }
-            sum = arr.length % 2 == 0? sum +=i : sum -= i;
+            sum = arr.length % 2 == 0 ? sum +=i : sum -= i;
             arr = []
         }
         return sum  
